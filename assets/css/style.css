@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: .7s;
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+}
+
+.section {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "urb";
+    background: #FAFDF2;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+@font-face {
+    font-family: "urb";
+    src: url(../fonts/Urbanist-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "urb";
+    src: url(../fonts/Urbanist-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "urb";
+    src: url(../fonts/Urbanist-Medium.ttf);
+    font-weight: 500;
+}
+
+/* header start */
+header {
+    background: #1A3129;
+    padding: 20px 0;
+}
+
+.header__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 26px;
+}
+
+.header__nav a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.color {
+    color: #CBEA7B;
+}
+
+.color__white {
+    color: white;
+}
+
+.header__nav a:hover {
+    color: #CBEA7B;
+}
+
+.header__nav a:focus {
+    color: #CBEA7B;
+}
+
+.header__block img {
+    width: 195px;
+}
+/* header end */
+
+/* testi  start */
+.testi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 200px 0;
+}
+
+.testi__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.testi__title h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.testi__inf {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.testi__name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #EEF8D3;
+}
+
+.testi__card {
+    padding: 30px 40px;
+    display: flex;
+    gap: 12px;
+    background: #F6FBE9;
+    align-items: center;
+    width: 100%;
+}
+
+.testi__card img {
+    width: 60px;
+}
+
+.testi__nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.testi__vector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EEF8D3;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.testi__vector img {
+    width: 12px;
+}
+
+.testi__ellipse {
+    display: flex;
+    gap: 4px;
+}
+
+.testi__ellipse__1 {
+    background: #1A3129;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+
+.ellipse__2 {
+    background: #EEF8D3;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+
+.ellipse__2:hover {
+    background: #1A3129;
+}
+
+.testi__vector:hover {
+    background: #F6FBE9;
+}
+
+.testi__name p {
+    padding: 40px 40px;
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 1px solid #EEF8D3;
+}
+/* testi  end */
+
+/* pricing start */
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 300px;
+}
+
+.price__inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.price__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.price__tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.price__card__block {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.price__card {
+    width: 100%;
+    background: #F6FBE9;
+    border: 1px solid #EEF8D3;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+}
+
+.price__price {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.price__title h3 {
+    font-weight: 500;
+    font-size: 18px;
+    width: 1000px;
+    text-align: center;
+}
+
+.price__button {
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: 1px solid #EEF8D3;
+}
+
+.price__green {
+    font-size: 18px;
+    color: white;
+    background: #234338;
+    padding: 10px 23px;
+    border-radius: 6px;
+}
+
+.price__btn {
+    font-size: 18px;
+    padding: 10px 23px;
+    border-radius: 6px;
+}
+
+.price__tabs p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price__card h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.price__card h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.price__card p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price__card a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price__span {
+    font-size: 50px;
+    font-weight: 700;
+    color: #234338;
+}
+
+.price__price h5 {
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.price__card__btn {
+    width: 100%;
+    background: #CBEA7B;
+    padding: 18px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #CBEA7B;
+}
+
+.price__card__btn:hover {
+    background: transparent;
+}
+
+.price__btn:focus {
+    background: #234338;
+    color: white;
+}
+/* pricing end */
+
+/* faq start */
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.faq__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.faq__question {
+    background: #F6FBE9;
+    border-radius: 12px;
+    padding: 60px;
+    border: 1px solid #EEF8D3;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 100%;
+}
+
+.faq__card {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #CBEA7B;
+    align-items: center;
+    width: 100%;
+}
+
+.faq__card__name {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq__title h3 {
+    width: 1000px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.faq__card h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.faq__card p {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+    width: 1378px;
+    display: none;
+}
+
+.faq__card a {
+    font-size: 24px;
+    color: white;
+    background: #234338;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.faq__card a:focus~.faq__card__name p{
+    display: block;
+}
+
+.faq__card a:focus {
+    background: #CBEA7B;
+}
+/* faq end */
